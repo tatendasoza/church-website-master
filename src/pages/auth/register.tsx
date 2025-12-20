@@ -209,7 +209,7 @@ const RegisterPage = () => {
           label: item.label,
           value: item.value,
         }))}
-        label="Are you a member of The Father's House"
+        label='Are you a member of Greaterlife Ministries'
         name='member'
         formik={formik}
         className='mb-5 w-full'

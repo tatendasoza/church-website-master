@@ -1,12 +1,5 @@
 import { StaticImageData } from 'next/image';
 import revUdohImage from '@/assets/images/about/pastors/apostle-udoh.webp';
-import mamaReeImage from '@/assets/images/about/pastors/mama-ree.webp';
-import pasFidelisImage from '@/assets/images/about/pastors/pas-fidelis.webp';
-import pasOmojuwaImage from '@/assets/images/about/pastors/pas-omojuwa.webp';
-import pasSolaImage from '@/assets/images/about/pastors/pas-sola.webp';
-import revEdithImage from '@/assets/images/about/pastors/rev-edith.webp';
-import revOshiyemiImage from '@/assets/images/about/pastors/rev-oshiyemi.webp';
-import revTomiImage from '@/assets/images/about/pastors/rev-tomi.webp';
 
 export type PastorType = {
   image: StaticImageData;
@@ -17,42 +10,42 @@ export type PastorType = {
 export const pastorData: PastorType[] = [
   {
     image: revUdohImage,
-    name: 'APOSTLE (DR.) RICHARD UDOH',
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Senior Pastor',
   },
   {
-    image: mamaReeImage,
-    name: 'PASTOR (MRS) RITA UDOH',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Co-founding Pastor',
   },
   {
-    image: revEdithImage,
-    name: 'REV. EDITH UDOH',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Pastor',
   },
   {
-    image: revTomiImage,
-    name: 'REV. TOMI OMOJUWA',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Pastor',
   },
   {
-    image: revOshiyemiImage,
-    name: 'REV. ADESEYE OSHINYEMI',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Pastor',
   },
   {
-    image: pasOmojuwaImage,
-    name: 'PASTOR (MRS.) OLAJUMOKE OMOJUWA',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Pastor',
   },
   {
-    image: pasSolaImage,
-    name: 'PASTOR SOLA EWEDEMI',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Pastor',
   },
   {
-    image: pasFidelisImage,
-    name: 'PASTOR FIDELIS OKONICHA',
+    image: revUdohImage,
+    name: 'PROPHET TRY IMMANUEL',
     title: 'Pastor',
   },
 ];

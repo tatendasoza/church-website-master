@@ -11,11 +11,11 @@ interface StreamChannel {
 export const streamingChannels: StreamChannel[] = [
   {
     image: youtubeImage,
-    link: 'https://www.youtube.com/@TFHCOnlineTv',
+    link: 'https://www.youtube.com/live/Awxl_zAfmAI?feature=shared',
   },
   {
     image: facebookImage,
-    link: 'https://www.facebook.com/tfhcng/',
+    link: 'https://www.facebook.com/share/17VZ41VaZ2/?mibextid=wwXIfr',
   },
   {
     image: mixlrImage,

@@ -111,7 +111,7 @@ const SendTestimonyForm = () => {
           formik.setFieldTouched('consent', true);
           formik.setFieldValue('consent', !formik.values.consent);
         }}
-        label='I consent that Father’s House can share my testimony publicly to encourage others'
+        label='I consent that Greaterlife Ministries can share my testimony publicly to encourage others'
       />
       {formik.touched.consent && formik.errors.consent && (
         <div className='error mt-2'>{formik.errors.consent}</div>

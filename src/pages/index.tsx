@@ -3,7 +3,6 @@
 import AnnouncementSection from '@/components/homepage/AnnouncementSection';
 import DevotionalSection from '@/components/homepage/DevotionalSection';
 import DirectionSection from '@/components/homepage/DirectionSection';
-import DownloadAppSection from '@/components/homepage/DownloadAppSection';
 import EventSection from '@/components/homepage/EventSection';
 import HeroSection from '@/components/homepage/HeroSection';
 import LinkSection from '@/components/homepage/LinkSection';
@@ -53,7 +52,6 @@ export default function Home() {
       <DevotionalSection />
       <WorshipSection />
       <WorshipExperienceSection />
-      <DownloadAppSection />
       <EventSection />
       <AnnouncementSection />
     </AppLayout>

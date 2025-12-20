@@ -1,7 +1,6 @@
 import WorshipExperienceSection from '@/components/homepage/WorshipExperienceSection';
 import AppLayout from '@/components/layout/AppLayout';
 import DevotionalSection from '@/components/resourcesPage/DevotionalSection';
-import DownloadAppSection from '@/components/resourcesPage/DownloadAppSection';
 import Header from '@/components/resourcesPage/Header';
 import LivestreamChannelsSection from '@/components/resourcesPage/LivestreamChannelsSection';
 import PodcastSection from '@/components/resourcesPage/PodcastSection';
@@ -46,7 +45,6 @@ const ResourcesPage = () => {
       <LivestreamChannelsSection />
       <WorshipExperienceSection showButton />
       <TestimoniesSection />
-      <DownloadAppSection />
     </AppLayout>
   );
 };

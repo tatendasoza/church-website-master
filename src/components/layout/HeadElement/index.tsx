@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 
 function HeadElement({
-  pageTitle = "The Father's House Church",
+  pageTitle = 'Greaterlife Ministries',
   description = 'Raising sons...',
   noIndex = false,
   siteLink = 'https://tfh-website.netlify.app/',
