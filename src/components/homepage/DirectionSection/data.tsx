@@ -3,15 +3,11 @@ import React from 'react';
 const timelines: { title: string; time: string }[] = [
   {
     title: 'Worship with Us Every Sunday',
-    time: 'Sundays - 8:30am to 10:00am, 10:30am to 12pm',
+    time: 'Sundays - 12:00pm to 2:00pm',
   },
   {
-    title: 'Join Us Every Tuesday for Bible Study',
-    time: 'Tuesdays - 6:45pm to 8:15pm',
-  },
-  {
-    title: 'Join Us Every Thursday for Yoke Breaking Prayer',
-    time: 'Thursdays - 8am to 10am',
+    title: 'Join Us Every Tuesday for a Midweek service',
+    time: 'Tuesdays - 5:30pm to 7:00pm',
   },
 ];
 

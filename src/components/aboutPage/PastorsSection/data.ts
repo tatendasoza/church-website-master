@@ -11,41 +11,7 @@ export const pastorData: PastorType[] = [
   {
     image: revUdohImage,
     name: 'PROPHET TRY IMMANUEL',
-    title: 'Senior Pastor',
+    title: 'Prophet',
   },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Co-founding Pastor',
-  },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Pastor',
-  },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Pastor',
-  },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Pastor',
-  },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Pastor',
-  },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Pastor',
-  },
-  {
-    image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
-    title: 'Pastor',
-  },
+  
 ];
