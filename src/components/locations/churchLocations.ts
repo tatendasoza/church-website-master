@@ -5,21 +5,10 @@ export interface LocationType {
 
 const churchLocations: LocationType[] = [
   {
-    name: 'HEADQUARTERS',
-    address: '90, Ojodu-Akute Road, Ajayi Farm Busstop, Akute',
+    name: 'Greaterlife Ministries',
+    address: 'Rainbow Cinema 1, Corner Angwa and Robert, next to Edgars',
   },
-  {
-    name: 'MOWE CHURCH',
-    address: '3, Transformation Avenue, Opposite Omapet Filling Station, Ofada Road Mowe',
-  },
-  {
-    name: 'IBADAN CHURCH',
-    address: 'Ologuneru, Beside Ekerin Junction. New Eleyele, Ibadan',
-  },
-  {
-    name: 'AREPO CHURCH',
-    address: '1/3 Eruobodo Plaza, Journalist Estate Road, Arepo',
-  },
+  
 ];
 
 export default churchLocations;

@@ -1,17 +1,18 @@
-import LoadingIndicator from '@/common/LoadingIndicator/LoadingIndicator';
-import { useAppSelector } from '@/store/hooks';
 import React from 'react';
 import PlayIcon from '@/assets/svgs/home/play-icon.svg';
 import Image from 'next/image';
-import { getYoutubeLink } from '@/functions/stringManipulations';
 import { useDraggable } from 'react-use-draggable-scroll';
 import Link from 'next/link';
 import Button from '@/common/Button';
 
 const WorshipExperienceSection = ({ showButton = false }: { showButton?: boolean }) => {
-  const { videos, loading } = useAppSelector((state) => state.youtubeVideos);
   const ref = React.useRef<any>();
   const { events } = useDraggable(ref);
+  const staticVideos = [
+    { id: 'Awxl_zAfmAI', link: 'https://www.youtube.com/live/Awxl_zAfmAI?feature=shared' },
+    { id: '_UhiDc5U9_U', link: 'https://youtu.be/_UhiDc5U9_U?si=cIwC4FxEkP94-Ux5' },
+    { id: '-ouHx2KUwqM', link: 'https://youtu.be/-ouHx2KUwqM?si=ImOYLqqBCkLYeHwc' },
+  ];
 
   return (
     <section id='worship-experience' className='px-primary py-[93px]'>
@@ -23,43 +24,29 @@ const WorshipExperienceSection = ({ showButton = false }: { showButton?: boolean
         ref={ref}
         {...events}
       >
-        {loading ? (
-          <LoadingIndicator />
-        ) : videos && videos.length > 0 ? (
-          videos.map((video) => (
-            <div
-              key={video.id}
-              className='flex flex-col gap-[25px] text-center md:text-left max-w-screen-sm w-full md:min-w-[509px] md:max-w-[509px] '
+        {staticVideos.map((video) => (
+          <div
+            key={video.id}
+            className='flex flex-col gap-[25px] text-center md:text-left max-w-screen-sm w-full md:min-w-[509px] md:max-w-[509px] '
+          >
+            <a
+              style={{
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://img.youtube.com/vi/${video.id}/hqdefault.jpg)`,
+              }}
+              href={video.link}
+              target='_blank'
+              className='flex items-center justify-center w-full h-[316px] max-h-screen group bg-center bg-no-repeat bg-cover rounded-[20px]'
             >
-              <a
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(${video.snippet.thumbnails.standard?.url})`,
-                }}
-                href={getYoutubeLink(video.snippet.resourceId.videoId)}
-                target='_blank'
-                className='flex items-center justify-center w-full h-[316px] max-h-screen group bg-center bg-no-repeat bg-cover rounded-[20px]'
-              >
-                <Image
-                  src={PlayIcon}
-                  alt='Play'
-                  className='group-hover:sepia duration-300'
-                  width={95}
-                  height={95}
-                />
-              </a>
-              <div className=''>
-                <p className='text-lg lg:text-[26px] font-bold text-primary mb-[10px] truncate'>
-                  {video.snippet.title}
-                </p>
-                <p className='lg:text-xl font-medium'>
-                  {new Date(video.snippet.publishedAt).toDateString()}
-                </p>
-              </div>
-            </div>
-          ))
-        ) : (
-          <p>No video found</p>
-        )}
+              <Image
+                src={PlayIcon}
+                alt='Play'
+                className='group-hover:sepia duration-300'
+                width={95}
+                height={95}
+              />
+            </a>
+          </div>
+        ))}
       </div>
       {showButton && (
         <div className='flex w-full justify-center'>
