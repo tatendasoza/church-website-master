@@ -10,7 +10,7 @@ function Navbar() {
     <nav className='pl-primary pr-primary h-24'>
       <div className='flex justify-between items-center'>
         <Link href='/'>
-          <Image src={Logo} alt='Greaterlife Ministries' className='h-[90px] w-auto' />
+          <Image src={Logo} alt='Greaterlife Ministries International' className='h-[90px] w-auto' />
         </Link>
         <div className='hidden lg:block'>
           <NavLinks />

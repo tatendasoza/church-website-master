@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 
 function HeadElement({
-  pageTitle = 'Greaterlife Ministries',
+  pageTitle = 'Greaterlife Ministries International',
   description = 'Raising sons...',
   noIndex = false,
   siteLink = 'https://tfh-website.netlify.app/',

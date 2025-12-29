@@ -7,7 +7,7 @@ const Header = () => {
         Daily Devotional
       </h1>
       <p className='font-normal text-lg md:text-xl lg:text-2xl'>
-        The devotional of Greaterlife Ministries
+        The devotional of Greaterlife Ministries International
       </p>
     </header>
   );

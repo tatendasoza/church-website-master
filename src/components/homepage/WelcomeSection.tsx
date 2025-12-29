@@ -14,7 +14,7 @@ const WelcomeSection = () => {
             You&apos;re welcome to worship with us
           </h2>
           <p className='font-normal mb-[9px] text-xl'>
-            As Senior Pastors of Greaterlife Ministries, this is an auspicious moment to
+            As Senior Pastors of Greaterlife Ministries International, this is an auspicious moment to
             share with you God&apos;s mandate upon our hearts. We believe that you are
             created for glory. That is why He has ordained us at this very hour and time
             to reach you and welcome you into the fold.
