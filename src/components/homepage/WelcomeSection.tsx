@@ -20,7 +20,7 @@ const WelcomeSection = () => {
             to reach you and welcome you into the fold.
           </p>
           <p className='font-bold text-xl mb-[50px]'>
-            - PROPHET TRY IMMANUEL
+            - PROPHET TAKURA IMMANUEL GAADZIKWA
           </p>
           <Link href='/about'>
             <Button className='!w-[230px]'>More About Us</Button>

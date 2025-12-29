@@ -46,7 +46,7 @@ const DevotionalDescription = () => {
         {new Date(details.ditto).toDateString()}
       </p>
       <p className='mt-[22px] text-[20px] md:text-[25px] lg:text-[30px]'>
-        PROPHET TRY IMMANUEL
+        PROPHET TAKURA IMMANUEL GAADZIKWA
       </p>
       <div className='bg-[#F2FFFC] px-10 md:px-20 py-[37px] text-lg md:text-2xl font-normal mt-9 flex flex-col gap-1'>
         <p>{details.scripture1}</p>

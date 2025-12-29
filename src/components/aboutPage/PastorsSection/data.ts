@@ -10,7 +10,7 @@ export type PastorType = {
 export const pastorData: PastorType[] = [
   {
     image: revUdohImage,
-    name: 'PROPHET TRY IMMANUEL',
+    name: 'PROPHET TAKURA IMMANUEL GAADZIKWA',
     title: 'Prophet',
   },
   
